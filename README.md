@@ -10,4 +10,4 @@ This is not a scored exam. This is designed to facilitate discussion during your
 2. Create a **branch** and **commit** your results when you are done.
 3. When ready, create Git Patch files, e.g. `git format-patch --signoff master`
 4. ZIP the resulting `.patch` files
-5. Email the zipped patch to `rwhitmore (at) paylocity.com` with the subject format `<YOUR_NAME> Screening Exercise`
+5. Email the zipped patch to the person indicated to you with the subject format `<YOUR_NAME> Screening Exercise`
