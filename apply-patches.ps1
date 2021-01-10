@@ -1,4 +1,7 @@
-﻿foreach($patchFile in (Get-ChildItem -File -Filter *.patch))
+﻿if((& git branch --show-current) -match '^$|master') {
+	throw "make sure to use a feature branch to apply"
+}
+foreach($patchFile in (Get-ChildItem -File -Filter *.patch))
 {
 	write-host "*** $($patchFile.Name) ***" -f green
 	write-host "verifying..." -f magenta
